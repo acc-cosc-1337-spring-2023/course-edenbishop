@@ -1,6 +1,5 @@
 //write include required statements
 #include <iostream>
-#include "decisions.cpp"
 using namespace std;
 
 //Write a function(s) prototype  here

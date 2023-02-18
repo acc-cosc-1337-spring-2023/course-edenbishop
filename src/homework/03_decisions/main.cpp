@@ -12,11 +12,13 @@ int main()
 	    answer;
 
 	// Display menu
-	cout << "    MENU    ";
+	cout << "------------------------\n";
+	cout << "\tMENU\n";
+	cout << "------------------------\n";
 	cout << "\nWhich method would you like to use to process you grade? \nEnter a number to respond.\n";
-	cout << "1-Letter grade using if";
-	cout << "2-Letter grade using switch";
-	cout << "3-Exit";
+	cout << "1-Letter grade using if\n";
+	cout << "2-Letter grade using switch\n";
+	cout << "3-Exit\n";
 	cin >> answer;
 
 	switch (answer)
@@ -34,12 +36,13 @@ int main()
 			}
 
 			else
-		        cout << "Using If: " << get_letter_grade_using_if(grade);
+		        cout << "\nUsing If: " << get_letter_grade_using_if(grade);
+				break;
 
 
 	    case 2:
 
-	        cout << "Enter in you grade: ";
+	        cout << "Enter in your grade: ";
 	        cin >> grade;
 
 	        // Check response for correct number
@@ -51,11 +54,12 @@ int main()
 			}
 
 			else
-	            cout << "Using Switch: " << get_letter_grade_using_switch(grade);
+	            cout << "\nUsing Switch: " << get_letter_grade_using_switch(grade);
+				break;
 
 	    
 		case 3:
-	        cout << "Stopping program...";
+	        cout << "Stopping program... \n";
 
 	
 	    default:
