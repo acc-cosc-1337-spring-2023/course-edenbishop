@@ -1,7 +1,7 @@
 #define CATCH_CONFIG_MAIN  // This tells Catch to provide a main() - only do this in one cpp file
-// I included the full file pathways. Program does not compile without it. 
-#include "/workspaces/course-edenbishop/inc/catch.hpp" 
-#include "/workspaces/course-edenbishop/src/homework/02_expressions/hwexpressions.h"
+///#include "workspaces/course-edenbishop/src/homework/02_expressions/hwexpressions.cpp"
+#include "catch.hpp" 
+#include "hwexpressions.h"
 
 TEST_CASE("Verify Test Configuration", "verification") {
 	REQUIRE(true == true);
