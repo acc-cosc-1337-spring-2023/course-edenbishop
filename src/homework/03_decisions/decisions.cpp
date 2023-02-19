@@ -10,19 +10,19 @@ string get_letter_grade_using_if(int grade)
     string gradeStr;
 
     if (grade >= 90 && grade <= 100)
-        gradeStr = "You recived an A!\n";
+        gradeStr = "A";
     
     else if (grade >= 80 && grade <= 89)
-        gradeStr = "You recived a B.\n";
+        gradeStr = "B";
     
     else if (grade >= 70 && grade <= 79)
-        gradeStr = "You recived a C.\n";
+        gradeStr = "C";
     
     else if (grade >= 60 && grade <= 69)
-        gradeStr = "You recived a D.\n";
+        gradeStr = "D";
 
     else
-        gradeStr = "You recived an F.\n";
+        gradeStr = "F";
         
     return gradeStr;
 
@@ -35,23 +35,23 @@ string get_letter_grade_using_switch(int grade)
     
     {
         case 0 ... 59:
-            gradeStr = "You recived an F.\n";
+            gradeStr = "F";
             break;
         
         case 60 ... 69:
-            gradeStr = "You recived a D.\n";
+            gradeStr = "D";
             break;
         
         case 70 ... 79:
-            gradeStr = "You recived a C.\n";
+            gradeStr = "C";
             break;
         
         case 80 ... 89:
-            gradeStr = "You recived a B.\n";
+            gradeStr = "B";
             break;
             
         case 90 ... 100:
-            gradeStr = "You recived an A!\n";
+            gradeStr = "A";
             break;
 
     }

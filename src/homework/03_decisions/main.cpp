@@ -36,7 +36,7 @@ int main()
 			}
 
 			else
-		        cout << "\nUsing If: " << get_letter_grade_using_if(grade);
+		        cout << "\nUsing if, the grade is: " << get_letter_grade_using_if(grade);
 				break;
 
 
@@ -54,7 +54,7 @@ int main()
 			}
 
 			else
-	            cout << "\nUsing Switch: " << get_letter_grade_using_switch(grade);
+	            cout << "\nUsing switch, the grade is: " << get_letter_grade_using_switch(grade);
 				break;
 
 	    
