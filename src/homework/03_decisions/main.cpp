@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string>
 #include "decisions.h"
-#include "decisions.cpp"
+//#include "decisions.cpp"
 
 using std::cout; using std::cin; using std::string;
 
