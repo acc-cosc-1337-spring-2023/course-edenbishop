@@ -1,8 +1,6 @@
-﻿//example
-int add_numbers(int num1, int num2);
+﻿#include <iostream>
+using namespace std;
 
-//write function prototype here
-
-
-
+// Include function prototype
+int multiply_numbers(int num1);
 

@@ -1,13 +1,11 @@
 #define CATCH_CONFIG_MAIN  // This tells Catch to provide a main() - only do this in one cpp file
-#include "catch.hpp"
-#include "data_types.h"
-TEST_CASE("Verify Test Configuration", "verification") {
-	REQUIRE(true == true);
-}
+#include "/workspaces/course-edenbishop/inc/catch.hpp"
+#include "/workspaces/course-edenbishop/src/homework/01_data_types/data_types.cpp"
+#include "/workspaces/course-edenbishop/src/homework/01_data_types/data_types.h"
 
-TEST_CASE("Verify sum_numbers function") 
+/*To run test case comment out main function in data_types.cpp*/
+
+TEST_CASE("Test Multiply Numbers") 
 {
-	REQUIRE(add_numbers(5, 5) == 10);
-	REQUIRE(add_numbers(10, 10) == 20);
+	REQUIRE(multiply_numbers(10) == 50);
 }
-
